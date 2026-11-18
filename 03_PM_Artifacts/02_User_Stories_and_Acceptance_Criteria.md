@@ -120,7 +120,3 @@
 - The alert links to sensor and maintenance evidence.
 - Acting and not-acting consequences are presented.
 - A human approves maintenance dispatch or operational restriction.
-
-## Professor-Expectation Alignment
-
-This artifact supports the professor's expected evidence of product-management discipline, expanded enterprise scope, appropriate AI use, human oversight, Responsible AI, Explainable AI, measurable evaluation, commercial relevance, and critical reflection. Any score, target, or forecast without observed pilot evidence is labelled as an assumption or proposed target.
