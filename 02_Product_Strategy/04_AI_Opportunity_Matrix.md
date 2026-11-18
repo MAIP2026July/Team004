@@ -54,6 +54,3 @@ The MVP prioritises opportunities with meaningful user value, adequate data read
 
 These opportunities require representative data, domain-specific evaluation, security review, and expert approval.
 
-## 7. Alignment with Professor Expectations
-
-The matrix demonstrates structured AI opportunity selection, prioritisation, value-versus-risk analysis, MVP discipline, human oversight, and rejection of an unsafe autonomous decision use case.
