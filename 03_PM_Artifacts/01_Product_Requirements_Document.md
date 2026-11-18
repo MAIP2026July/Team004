@@ -113,7 +113,3 @@ Synthetic or anonymised data must be labelled. Confidential data requires approv
 - Autonomous product launch or operational commissioning
 - Replacement of formal engineering or cybersecurity validation
 - Production-wide deployment without pilot evidence
-
-## Professor-Expectation Alignment
-
-This artifact supports the professor's expected evidence of product-management discipline, expanded enterprise scope, appropriate AI use, human oversight, Responsible AI, Explainable AI, measurable evaluation, commercial relevance, and critical reflection. Any score, target, or forecast without observed pilot evidence is labelled as an assumption or proposed target.
