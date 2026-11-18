@@ -1,12 +1,25 @@
-# Team004: RiskReview AI
+# Team004: RiskReview AI – Expanded Enterprise AI Risk Governance Framework
 
 ## 1. Project Overview
 
-**RiskReview AI** is a human-supervised AI copilot for reviewing programme-level risk registers used in automotive component New Product Development (NPD) and New Product Introduction (NPI) programmes.
+This project presents an expanded enterprise framework for identifying, assessing, mitigating, monitoring, and governing risks associated with Artificial Intelligence (AI)-enabled products and operations.
 
-The initial product is designed for **Tier 1 and Tier 2 automotive component manufacturers** and focuses on the repeated monthly programme-risk and launch-readiness review from **Advanced Product Quality Planning (APQP)** to **Start of Production (SOP)**.
+The project began with a focused AI-assisted programme-risk review use case in the automotive sector. The scope was subsequently expanded to examine enterprise AI risk governance across complex, high-impact operating environments.
 
-The product helps teams identify incomplete, unclear, duplicated, unsupported, or weakly mitigated risk entries before review meetings. It supports human decision-making but does not replace authorised programme, quality, or launch-approval personnel.
+The expanded project covers:
+
+- Automotive Electronic Control Units (ECUs)
+- Advanced Driver Assistance Systems (ADAS) and automated-driving applications
+- Connected-vehicle and Over-the-Air (OTA) update infrastructure
+- Automotive AI supplier governance
+- Wind-turbine monitoring and operational optimisation
+- Enterprise AI risk assessment and mitigation
+- Responsible Artificial Intelligence (RAI)
+- Explainable Artificial Intelligence (XAI)
+- Human-supervised commercial-launch and operational-commissioning decisions
+- Phased implementation, product maturity, and continuous monitoring
+
+The project combines AI-supported risk analysis, enterprise risk management, business strategy, human oversight, and responsible product implementation.
 
 ---
 
@@ -15,232 +28,593 @@ The product helps teams identify incomplete, unclear, duplicated, unsupported, o
 | Team Member | BITS ID | GitHub ID |
 |---|---|---|
 | Maharshi Pandit | 2025MB26121 | [2025mb26121-hub](https://github.com/2025mb26121-hub) |
-| Swaminathan B. | 2025MB26109 | [007india](https://github.com/007india) |
+| Swaminathan B. | To be updated | [007india](https://github.com/007india) |
+
+> The final submission will include an individual contribution statement showing each team member's work, verification responsibilities, and approval of the submitted artifacts.
 
 ---
 
-## 3. Industry and Product Scope
+## 3. Scope Evolution
 
-| Area | Selected Scope |
-|---|---|
-| Industry | Automotive |
-| Customer Segment | Tier 1 and Tier 2 automotive component manufacturers |
-| Programme Type | NPD and NPI programmes |
-| Lifecycle | APQP to SOP |
-| Primary Users | NPD Project Manager and APQP Coordinator |
-| Initial Workflow | Monthly programme-risk and launch-readiness review |
-| Product Type | Human-supervised AI copilot |
+### 3.1 Initial Scope
 
----
+The initial concept focused on using AI to support the review of automotive programme risk registers during New Product Development (NPD) and New Product Introduction (NPI), particularly from Advanced Product Quality Planning (APQP) to Start of Production (SOP).
 
-## 4. Business Problem
+The initial workflow examined how AI could help programme teams identify:
 
-Automotive development programmes involve interdependent workstreams such as product design, tooling, supplier readiness, manufacturing engineering, quality, validation, Production Part Approval Process (PPAP), and production launch.
-
-Risk-register entries may be created by different owners using inconsistent formats and varying levels of detail. Before a monthly review, programme teams may need to manually identify:
-
-- Missing owners, dates, actions, or evidence
-- Weak cause-event-impact statements
-- Overdue mitigation actions
-- Potentially related or duplicate risks
+- Missing risk information
+- Weak cause-event-impact descriptions
+- Unclear mitigation actions
+- Overdue activities
 - Stale supporting evidence
-- Mitigation actions that are vague or not verifiable
-- Risks requiring discussion during the review meeting
+- Potentially related risks
+- Records requiring management attention
 
-This manual preparation can reduce the time available for decision-making and may allow important data-quality issues to remain unnoticed.
+Authorised human users retained control over risk scoring, escalation, acceptance, closure, and launch decisions.
 
----
+### 3.2 Expanded Scope
 
-## 5. Proposed Solution
+The project has evolved from a single risk-review workflow into an enterprise AI risk-governance framework.
 
-RiskReview AI reviews a programme risk register and produces a traceable, human-verifiable review output.
+The expanded framework examines how organisations can:
 
-### MVP capabilities
+1. Identify enterprise risks created or influenced by AI.
+2. Assess operational, financial, data, ethical, cybersecurity, and business-continuity impacts.
+3. Use AI to detect emerging risk patterns, unusual behaviour, model drift, and control weaknesses.
+4. Apply Responsible AI and Explainable AI controls.
+5. calculate and govern inherent and residual risk exposure.
+6. Define commercial-launch and operational-commissioning thresholds.
+7. Preserve accountable human authority over material decisions.
+8. Govern third-party AI models, suppliers, and technology dependencies.
+9. Introduce AI capabilities through phased implementation and maturity gates.
+10. Demonstrate transferability across more than one industrial context.
 
-1. Check mandatory fields and overdue actions using deterministic rules.
-2. Review cause-event-impact structure.
-3. Identify unclear or incomplete risk descriptions.
-4. Suggest potentially related or duplicate risks for human review.
-5. Challenge weak mitigation actions with focused questions.
-6. flag stale or missing supporting evidence.
-7. Generate a verified review agenda linked to source risk IDs.
-8. Record user acceptance, rejection, and edits for audit and evaluation.
-
-### Human-control boundary
-
-RiskReview AI does **not**:
-
-- Automatically assign probability or impact
-- Assign Failure Mode and Effects Analysis (FMEA) severity, occurrence, or detection ratings
-- Replace Design FMEA or Process FMEA
-- Approve PPAP
-- Approve SOP or launch readiness
-- Accept, escalate, merge, close, or delete a risk without authorised human confirmation
-- Present AI-generated output as verified fact without source evidence
+The automotive sector remains the primary application domain. Wind-turbine operations are included as a second domain to demonstrate how the governance framework can be adapted to another asset-intensive, safety-relevant operating environment.
 
 ---
 
-## 6. Why AI Is Used
+## 4. Enterprise Problem Statement
 
-Deterministic rules are appropriate for exact checks such as missing fields, invalid dates, and overdue actions. AI is used only where language understanding or similarity assessment is needed, including:
+Organisations are increasingly integrating AI into vehicles, embedded systems, connected products, engineering processes, operational infrastructure, and supplier ecosystems.
 
-- Interpreting cause-event-impact structure
-- Identifying potentially related risk narratives
-- Evaluating whether mitigation wording is specific and verifiable
-- Generating review questions grounded in the supplied risk data
-- Summarising selected findings into a review agenda
+Traditional project-risk or technical-review methods may not fully address risks created by data-dependent and continuously evolving AI systems. Examples include:
 
-All AI suggestions remain reviewable and reversible.
+- AI model failure under rare or unfamiliar operating conditions
+- Dataset bias or inadequate geographic and demographic representation
+- Accuracy loss after model compression or hardware optimisation
+- Model and sensor drift after deployment
+- Adversarial attacks on connected systems
+- Unauthorised changes to deployed AI models
+- Compromised OTA update infrastructure
+- Supplier black-box models with limited transparency
+- Restricted access to training, validation, or incident evidence
+- Privacy and data-sovereignty concerns
+- Vendor lock-in and technology concentration
+- Inadequate explanation of safety-relevant AI recommendations
+- Excessive dependence on automated recommendations
+- Weak human oversight and unclear decision accountability
 
----
-
-## 7. Prototype Workflow
-
-1. The user loads or selects a sample risk register.
-2. Deterministic checks validate mandatory fields, dates, and overdue actions.
-3. AI-assisted checks review narrative quality, related risks, mitigation wording, and evidence freshness.
-4. Each finding displays its source risk ID and reason.
-5. The user accepts, rejects, or edits the suggestion.
-6. Confirmed findings are included in the review agenda.
-7. The interaction is recorded for audit and evaluation.
-
-> The prototype is a decision-support demonstration. It is not connected to a live automotive production system and must not be used for real launch-approval decisions.
+The enterprise therefore requires an integrated approach connecting AI risk identification, business impact, technical controls, responsible AI, explainability, supplier governance, continuous monitoring, and human decision authority.
 
 ---
 
-## 8. Repository Structure
+## 5. Project Objective
+
+The objective is to design and demonstrate an enterprise AI risk-governance framework that:
+
+- Identifies AI-related enterprise risks
+- Evaluates inherent and residual risk exposure
+- Uses AI-assisted assessment, detection, and monitoring methods
+- Links risk observations to operational and financial consequences
+- Defines technical and organisational mitigation controls
+- Incorporates Responsible AI and Explainable AI requirements
+- Establishes Human-in-Command, Human-in-the-Loop, and Human-on-the-Loop controls
+- Supports accountable commercial-launch and operational-commissioning decisions
+- Provides a phased roadmap for enterprise implementation
+- Connects product features with implementation maturity
+- Maintains traceable assumptions, sources, decisions, and limitations
+
+---
+
+## 6. Expanded Use-Case Scope
+
+### 6.1 Automotive AI and ECU Systems
+
+The automotive scope includes:
+
+- Fleet-wide edge-case perception failures
+- ECU quantisation and thermal-latency drift
+- Connected-fleet spoofing
+- OTA update hijacking
+- Supplier black-box AI models
+- Restricted access to training and validation evidence
+- Driver and vehicle data privacy
+- Geographic and demographic model bias
+- AI hardware and platform dependency
+- Post-deployment model drift
+- Vehicle and fleet continuity risks
+
+### 6.2 Wind-Turbine Operations
+
+The wind-energy scope includes:
+
+- Predictive-maintenance model opacity
+- Sensor-data quality degradation
+- False maintenance recommendations
+- Model drift in wake-steering optimisation
+- Coordinated-control risks
+- Cybersecurity exposure
+- Operational-continuity exposure
+- AI hardware and supplier bottlenecks
+- Inadequate explanations for maintenance or control recommendations
+
+### 6.3 Cross-Enterprise Governance
+
+The cross-enterprise scope includes:
+
+- Enterprise risk identification
+- Inherent and residual risk scoring
+- Likelihood-impact heatmaps
+- Human approval and escalation gates
+- Responsible AI controls
+- Explainable AI methods
+- Supplier and third-party governance
+- Cybersecurity and continuity controls
+- Continuous monitoring
+- Post-deployment auditability
+- Product maturity assessment
+- Phased rollout planning
+
+---
+
+## 7. Why AI Is Appropriate
+
+Deterministic rules remain suitable for fixed checks such as missing fields, invalid values, overdue dates, threshold breaches, and required approvals. AI adds value when the task requires contextual, pattern-based, or multi-source analysis.
+
+Potential AI-supported capabilities include:
+
+- Mining fleet or operational data for rare scenarios
+- Detecting unusual model behaviour
+- Identifying model and data drift
+- Grouping related incidents or risk patterns
+- Analysing unstructured risk descriptions
+- Evaluating whether mitigation evidence is relevant and current
+- Producing human-readable explanations
+- Generating synthetic edge cases for controlled validation
+- Supporting continuous monitoring and early-warning systems
+
+AI output is treated as decision support. Material decisions require validation by authorised technical, business, safety, cybersecurity, or governance personnel.
+
+---
+
+## 8. Human–AI Decision Model
+
+The framework uses three levels of human oversight.
+
+### 8.1 Human-in-Command
+
+Humans define:
+
+- Business objectives
+- Risk appetite
+- Governance policies
+- Prohibited AI uses
+- Data-access boundaries
+- Launch and commissioning criteria
+- Escalation thresholds
+- Accountable decision owners
+
+### 8.2 Human-in-the-Loop
+
+Authorised subject-matter experts review:
+
+- AI-generated risk alerts
+- Model explanations
+- Validation exceptions
+- Supplier evidence
+- Proposed mitigation actions
+- High-risk deployment decisions
+- Material changes to operating conditions
+
+The reviewer may accept, reject, modify, or escalate an AI recommendation.
+
+### 8.3 Human-on-the-Loop
+
+Authorised personnel monitor:
+
+- Model drift
+- Operational telemetry
+- Fairness indicators
+- Cybersecurity alerts
+- Residual-risk movement
+- Control performance
+- Post-deployment incidents
+
+### 8.4 Prohibited Autonomous Decisions
+
+AI must not independently:
+
+- Approve a commercial product launch
+- Commission a high-risk operational system
+- Accept a critical residual risk
+- Approve safety or regulatory compliance
+- Change an accountable risk owner's approved score
+- Close a material risk without human authorisation
+- Replace formal engineering, cybersecurity, quality, or safety validation
+
+---
+
+## 9. Risk Assessment Methodology
+
+The enterprise risk register uses a 5 × 5 likelihood-impact approach.
+
+### 9.1 Impact Dimensions
+
+Risk impact is reviewed across:
+
+1. Operational impact
+2. Financial impact
+3. Data, Responsible AI, and Explainable AI impact
+4. Enterprise security and business-continuity impact
+
+The overall impact follows a worst-pillar approach so that a severe consequence is not hidden by averaging it with lower-impact dimensions.
+
+### 9.2 Risk Calculations
+
+**Inherent Risk Score = Inherent Likelihood × Inherent Impact**
+
+**Residual Risk Score = Residual Likelihood × Residual Impact**
+
+**Risk Reduction Percentage = (Inherent Risk Score − Residual Risk Score) / Inherent Risk Score × 100**
+
+### 9.3 Governance Tiers
+
+| Score | Risk Tier | Governance Response |
+|---:|---|---|
+| 17–25 | Critical | Launch or commissioning blocked; executive risk-board review required |
+| 10–16 | High | Mandatory mitigation plan, senior approval, validation gates, and continuous monitoring |
+| 5–9 | Medium | Managed through standard product or operational governance gates and periodic review |
+| 1–4 | Low | Accepted only by authorised personnel and monitored through routine controls |
+
+> All scores in the current academic artifacts are illustrative unless supported by documented organisational evidence, validation results, or cited external data.
+
+---
+
+## 10. Governance Frameworks Applied
+
+| Framework or reference | Application in the project |
+|---|---|
+| National Institute of Standards and Technology AI Risk Management Framework (NIST AI RMF) 1.0 | Organises activities using Govern, Map, Measure, and Manage functions |
+| Responsible AI | Addresses fairness, privacy, accountability, transparency, reliability, and human oversight |
+| Explainable AI | Supports understandable model behaviour, recommendations, and audit evidence |
+| Porter's Five Forces | Evaluates supplier power, platform dependency, competitive pressure, and vendor concentration |
+| European Union AI Act | Provides a risk-based reference for AI governance and control considerations |
+| UNECE Regulation No. 155 | Supports automotive cybersecurity governance considerations |
+| UNECE Regulation No. 156 | Supports automotive software-update governance considerations |
+
+These references guide the academic framework. They do not constitute certification or replace applicable engineering, safety, cybersecurity, legal, or regulatory obligations.
+
+---
+
+## 11. AI Assessment and Control Approaches
+
+The project considers the following approaches where appropriate to the risk and available evidence:
+
+- Fleet scenario mining
+- Anomaly detection
+- Drift detection
+- Synthetic-data generation
+- Sensor fusion
+- Deterministic safety monitors
+- Feature-attribution methods
+- Concept-based explanation methods
+- Model Cards
+- Data Sheets for Datasets
+- Immutable audit logging
+- Role-based access control
+- Signed and verified model deployment
+- Shadow-mode evaluation
+- Human approval gates
+- Post-deployment telemetry
+
+Methods such as SHAP, TCAV, Grad-CAM, or LIME should be selected only when they are technically suitable for the model type and evaluation question. An explanation method is not treated as proof of safety or correctness.
+
+---
+
+## 12. Product Features and Maturity
+
+The product maturity structure progresses from governance definition to controlled enterprise operation.
+
+| Maturity area | Representative capability |
+|---|---|
+| Governance foundation | Risk appetite, roles, policies, prohibited uses, and escalation thresholds |
+| Data readiness | Data ownership, quality checks, lineage, privacy controls, and representative datasets |
+| Model assessment | Performance testing, explainability, robustness, fairness, and edge-case validation |
+| Controlled pilot | Shadow mode, human verification, limited users, and predefined success criteria |
+| Deployment governance | Approval gates, signed releases, audit records, and rollback procedures |
+| Continuous assurance | Drift monitoring, incident detection, periodic review, and control testing |
+| Enterprise scaling | Supplier integration, cross-domain reuse, portfolio reporting, and standardised governance |
+
+---
+
+## 13. Seven-Stage Rollout Roadmap
+
+### Stage 1: Strategy and Governance
+
+- Confirm business objectives and risk appetite
+- Define accountable owners
+- Establish prohibited uses and escalation thresholds
+- Approve academic pilot boundaries
+
+### Stage 2: Use-Case and Risk Mapping
+
+- Select priority automotive and wind-energy use cases
+- Map affected users, assets, decisions, and failure consequences
+- Define inherent-risk assumptions
+
+### Stage 3: Data and Architecture Readiness
+
+- Assess data quality, access, lineage, privacy, and security
+- Define model, logging, deployment, and integration architecture
+- Document third-party dependencies
+
+### Stage 4: Model and Control Validation
+
+- Test model performance, robustness, bias, drift sensitivity, and explainability
+- Validate deterministic controls, fallback modes, and human approval workflows
+
+### Stage 5: Shadow-Mode Pilot
+
+- Run the system without autonomous operational authority
+- Compare AI observations with expert decisions
+- Record false positives, false negatives, overrides, and user feedback
+
+### Stage 6: Controlled Deployment
+
+- Limit deployment to approved use cases and users
+- Enforce monitoring, audit logging, rollback, and escalation controls
+- Review residual risks before each expansion decision
+
+### Stage 7: Continuous Monitoring and Scaling
+
+- Monitor drift, incidents, fairness, control effectiveness, and supplier changes
+- Revalidate models after material changes
+- Expand only when evidence supports acceptable performance and governance maturity
+
+---
+
+## 14. Evaluation Plan
+
+The evaluation will distinguish between technical model performance, governance effectiveness, and business value.
+
+### 14.1 Technical Measures
+
+- Detection precision and recall
+- False-positive and false-negative rates
+- Robustness under edge cases
+- Drift-detection sensitivity
+- Explanation consistency
+- System latency and availability where relevant
+
+### 14.2 Governance Measures
+
+- Percentage of material AI recommendations reviewed by authorised humans
+- Human acceptance, rejection, and modification rates
+- Number of unresolved critical findings
+- Time required to escalate a critical issue
+- Audit-log completeness
+- Percentage of deployments with documented approval and rollback plans
+
+### 14.3 Business and Operational Measures
+
+- Reduction in manual review effort
+- Improvement in risk-record completeness
+- Reduction in unresolved high-priority actions
+- Reduction in validation-cycle delays
+- Improvement in supplier evidence availability
+- Reduction in avoidable operational interruptions
+
+### 14.4 Required Evaluation Evidence
+
+For each test case, the repository should record:
+
+- Test-case identifier
+- Input or scenario
+- Expected result
+- Actual AI result
+- Human reviewer assessment
+- Acceptance, rejection, or modification decision
+- Error category
+- Corrective action
+- Final conclusion
+
+No performance claim will be presented as validated until it is supported by documented test evidence.
+
+---
+
+## 15. Business and Commercial Perspective
+
+The commercial hypothesis is that organisations operating AI-enabled products and industrial assets need a repeatable way to connect technical AI assurance with enterprise decision-making.
+
+Potential value areas include:
+
+- Faster risk-review preparation
+- Earlier identification of model, data, supplier, or cybersecurity issues
+- Better traceability of mitigation decisions
+- Reduced dependence on undocumented expert judgement
+- Improved evidence for launch and commissioning reviews
+- Stronger supplier transparency
+- Consistent enterprise reporting
+
+A controlled pilot should validate:
+
+- User adoption
+- Time saved
+- Improvement in detection and review quality
+- Integration requirements
+- Security and confidentiality requirements
+- Buyer and budget ownership
+- Willingness to pay
+- Cost of implementation and ongoing assurance
+
+Commercial scale-up should occur only after technical performance, governance effectiveness, user value, and economic viability are demonstrated.
+
+---
+
+## 16. Project Artifacts
+
+| Artifact | Purpose |
+|---|---|
+| Enterprise AI Risk Governance presentation | Communicates the executive framework, Human–AI model, enterprise risks, controls, and rollout plan |
+| Enterprise AI Risk Register workbook | Documents risks, impacts, AI assessment methods, mitigations, scores, and risk reduction |
+| Product Features and Maturity sheet | Connects governance capabilities with maturity stages |
+| Seven-Stage Rollout Roadmap sheet | Defines progression from strategy to continuous monitoring |
+| Five-Framework Cross-Walk sheet | Maps governance controls across AI, regulatory, and business frameworks |
+| Scoring and 5 × 5 Heatmap sheet | Defines risk tiers and governance actions |
+| Markdown documentation | Provides traceable scope, methodology, assumptions, sources, decisions, evaluation, and assignment evidence |
+
+### Current Supporting Files
+
+- `Enterprise_AI_Risk_Governance_Human_AI-v5.4 1.pptx`
+- `OEM_Enterprise_AI_Risk_Register-v6.xlsx`
+
+---
+
+## 17. Repository Structure
 
 ```text
-TEAM004_RiskReview_AI/
-|
-|-- README.md
-|-- 01_Executive_Summary/
-|-- 02_Product_Strategy/
-|-- 03_PM_Artifacts/
-|-- 04_UX_Workflow_Trust/
-|-- 05_Data_Model_Evaluation/
-|-- 06_Business_Economics_Scaling/
-|-- 07_Ethics_Governance_Risk/
-|-- 08_AI_Collaboration/
-|-- 09_Prototype/
-`-- 10_Presentation/
+Team004-Enterprise-AI-Risk-Governance/
+├── README.md
+├── 01_Executive_Summary/
+│   └── Executive_Summary.md
+├── 02_Scope_and_Strategy/
+│   ├── Scope_Evolution.md
+│   ├── Enterprise_Problem_and_Objectives.md
+│   ├── Stakeholders_and_JTBD.md
+│   └── Product_Features_and_Maturity.md
+├── 03_Risk_Methodology/
+│   ├── Enterprise_AI_Risk_Register.md
+│   ├── Risk_Scoring_Methodology.md
+│   └── Risk_Heatmap_and_Gate_Rules.md
+├── 04_Human_AI_Governance/
+│   ├── Human_AI_Decision_Model.md
+│   ├── Roles_RACI_and_Escalation.md
+│   ├── Responsible_AI.md
+│   └── Explainable_AI.md
+├── 05_Framework_Crosswalk/
+│   └── Governance_Framework_Crosswalk.md
+├── 06_Rollout_and_Evaluation/
+│   ├── Seven_Stage_Rollout_Roadmap.md
+│   ├── Evaluation_Plan.md
+│   ├── Evaluation_Results.md
+│   └── Error_Analysis_and_AI_Self_Evaluation.md
+├── 07_Business_and_Commercial/
+│   ├── Business_Value_and_KPIs.md
+│   └── Commercialisation_and_Scaling.md
+├── 08_AI_Collaboration/
+│   ├── AI_Usage_Log.md
+│   ├── Prompt_Log.md
+│   └── Human_Verification_Record.md
+├── 09_Assumptions_Sources_Limitations/
+│   ├── Assumptions_and_Limitations.md
+│   └── References.md
+├── 10_Supporting_Artifacts/
+│   ├── Enterprise_AI_Risk_Governance_Human_AI-v5.4 1.pptx
+│   └── OEM_Enterprise_AI_Risk_Register-v6.xlsx
+└── 11_Team_Contribution/
+    └── Individual_Contribution_Statement.md
 ```
 
-### Folder guide
+---
 
-| Folder | Purpose |
-|---|---|
-| `01_Executive_Summary` | Concise summary of the problem, product, users, MVP, controls, and recommendation |
-| `02_Product_Strategy` | Discovery plan, product vision, Jobs to Be Done, AI opportunities, MVP scope, build/buy/API decisions, and roadmap |
-| `03_PM_Artifacts` | Product requirements, personas, user stories, acceptance criteria, prioritisation, and success metrics |
-| `04_UX_Workflow_Trust` | Current and future workflows, PlantUML diagrams, wireframes, human-control points, and trust design |
-| `05_Data_Model_Evaluation` | Data schema, synthetic inputs, evaluation cases, metrics, error analysis, and prototype test evidence |
-| `06_Business_Economics_Scaling` | Buyer, value hypothesis, pilot design, pricing assumptions, unit economics, and scaling approach |
-| `07_Ethics_Governance_Risk` | Responsible AI controls, risk register, privacy, security, auditability, and governance |
-| `08_AI_Collaboration` | AI-use log, prompts, verification process, reflection, and AI self-evaluation |
-| `09_Prototype` | Working prototype, sample data, application files, instructions, screenshots, and test results |
-| `10_Presentation` | Final presentation and supporting presentation material |
+## 18. Assumptions and Limitations
+
+The current work is an academic product-management and enterprise AI governance project.
+
+The project does not:
+
+- Certify an AI system as safe
+- Replace formal engineering validation
+- Replace cybersecurity testing
+- Replace regulatory approval
+- Independently approve product launch or operational commissioning
+- Represent actual organisational risk scores unless supported by evidence
+- Claim production deployment in automotive or wind-energy operations
+- Treat explainability output as proof of model correctness
+- Treat risk reduction estimates as validated business results without test evidence
+
+Current risks, scores, financial impacts, performance targets, and reduction percentages must be classified as one of the following:
+
+- Externally sourced fact
+- Internal or organisational evidence
+- Prototype observation
+- Expert judgement
+- Academic assumption
+- Synthetic example
+- Unvalidated hypothesis
 
 ---
 
-## 9. Prototype Use
+## 19. Alignment with Professor Expectations
 
-Open the `09_Prototype` folder and follow its local `README.md` for the exact run instructions.
-
-For a browser-based prototype, the normal demonstration flow is:
-
-1. Open `index.html` in a modern web browser.
-2. Load or select the provided synthetic risk data.
-3. Run the review checks.
-4. Open each finding and verify its source risk ID.
-5. Accept, reject, or edit suggestions.
-6. Review the generated meeting agenda.
-
-Only synthetic or properly anonymised data should be used in the assignment prototype.
-
----
-
-## 10. Evaluation Approach
-
-The prototype should be evaluated using a labelled synthetic test set that includes normal cases and difficult edge cases. Evaluation covers:
-
-- Mandatory-field detection accuracy
-- Overdue-action detection accuracy
-- Cause-event-impact review quality
-- Related-risk suggestion precision
-- Mitigation-challenge usefulness
-- Evidence-freshness detection
-- Source traceability
-- Unsupported-claim rate
-- User acceptance, rejection, and edit behaviour
-- Agenda completeness and correctness
-
-AI-generated outputs must be checked against the original risk records. Test results should clearly distinguish observed evidence from assumptions or future targets.
+| Professor expectation | How the project addresses it | Primary evidence |
+|---|---|---|
+| Meaningful enterprise problem | Addresses AI-related risks in automotive and wind-turbine operations | Problem statement and risk register |
+| Clear scope evolution | Shows progression from a focused risk-review use case to enterprise AI governance | Scope Evolution section |
+| Appropriate AI application | Separates deterministic controls from contextual and pattern-based AI analysis | Why AI Is Appropriate section |
+| Product-management perspective | Covers users, capabilities, maturity, rollout, value, and scaling | Product maturity and roadmap documentation |
+| Human–AI interaction | Defines Human-in-Command, Human-in-the-Loop, and Human-on-the-Loop controls | Human–AI Decision Model |
+| Responsible AI | Covers fairness, privacy, accountability, transparency, reliability, and security | Governance documentation |
+| Explainable AI | Defines explanation approaches and their limitations | AI Assessment and Control Approaches |
+| Enterprise risk management | Uses inherent risk, residual risk, a 5 × 5 heatmap, and governance thresholds | Risk register and scoring methodology |
+| Business strategy | Examines supplier dependence, platform risk, commercial value, and scalability | Framework cross-walk and commercial documentation |
+| Prototype or demonstrable artifact | Provides a structured risk register, governance presentation, and assessment workflow | PowerPoint and Excel artifacts |
+| Evaluation and evidence | Defines technical, governance, and business measures with test-case traceability | Evaluation Plan |
+| Implementation roadmap | Provides a seven-stage rollout from strategy to continuous assurance | Rollout roadmap |
+| AI collaboration evidence | Requires prompt records, AI output review, and human verification | AI Collaboration folder |
+| Critical reflection | Identifies assumptions, unvalidated claims, failure modes, and limitations | Assumptions and Limitations section |
+| Individual contribution | Provides a dedicated record of each team member's contribution | Contribution statement |
 
 ---
 
-## 11. Responsible AI and Governance
+## 20. Submission Readiness Requirements
 
-The design applies the following controls:
+Before final submission, the team will complete the following checks:
 
-- Human approval for consequential actions
-- Source-linked findings and traceability
-- Clear separation of rules, AI suggestions, and human decisions
-- No autonomous risk scoring or launch approval
-- Role-based access as a production requirement
-- Minimal data collection and retention
-- Use of synthetic or anonymised assignment data
-- Audit logging for accepted, rejected, and edited outputs
-- Version control for prompts, rules, and evaluation datasets
-- Clear uncertainty and limitation statements
-
----
-
-## 12. Commercial MVP Direction
-
-The recommended commercial path is a limited paid pilot with one automotive component programme team. Before broader deployment, the team must validate:
-
-- Frequency and cost of manual risk-review preparation
-- Availability and quality of risk-register data
-- User trust in source-linked AI suggestions
-- Improvement in review preparation time and finding quality
-- Integration requirements for existing programme-management tools
-- Buyer, budget owner, procurement, security, and data-governance requirements
-- Willingness to pay using real customer evidence
-
-Commercial assumptions in this repository are hypotheses until validated through interviews or pilot evidence.
+- [ ] Confirm the final project title and expanded scope across all artifacts.
+- [ ] Ensure that the PowerPoint, Excel workbook, and Markdown files use consistent terminology.
+- [ ] Correct any contradiction between stated scope and referenced standards.
+- [ ] Label all synthetic data and illustrative risk scores.
+- [ ] Add sources for regulatory, financial, technical, and performance claims.
+- [ ] Provide a clear justification for each high or critical risk score.
+- [ ] Add evaluation cases with expected and actual results.
+- [ ] Document false positives, false negatives, and human overrides.
+- [ ] Include AI-generated output and human verification evidence.
+- [ ] Include the individual contribution statement.
+- [ ] Test all internal links and verify that all repository files open correctly.
+- [ ] Conduct a final professor-expectation traceability review.
 
 ---
 
-## 13. Evidence Status
+## 21. Current Project Status
 
-This repository contains assignment research, product-management artefacts, synthetic data, prototype outputs, and evaluation material. Unless a file states otherwise:
+The expanded enterprise AI risk register, product maturity structure, rollout roadmap, framework cross-walk, scoring methodology, and governance presentation have been prepared.
 
-- Customer needs are hypotheses requiring discovery validation.
-- Performance claims are limited to the documented test set.
-- Financial values are planning assumptions, not proven market facts.
-- Prototype results do not establish production readiness.
-- Live automotive data and real operational approvals are outside the assignment scope.
+The next submission steps are to:
 
----
-
-## 14. Academic and AI-Use Declaration
-
-Generative AI was used to support ideation, drafting, structuring, prototype development, synthetic data preparation, and review. Team members remain responsible for:
-
-- Defining the product scope
-- Verifying technical and business claims
-- Checking consistency across deliverables
-- Testing prototype behaviour
-- Recording limitations and corrections
-- Making final product-management decisions
-
-Detailed prompts, verification steps, corrections, and reflections are documented in `08_AI_Collaboration`.
+1. Complete the supporting Markdown documentation.
+2. Add source and assumption traceability.
+3. Document prototype or scenario-based evaluation results.
+4. Complete error analysis and AI self-evaluation.
+5. Record team contributions and human verification.
+6. Conduct a final consistency and submission-readiness review.
 
 ---
 
-## 15. Current Status
+## 22. Conclusion
 
-The repository is organised as a complete product-management assignment pack containing strategy, PM artefacts, workflow and trust design, data and evaluation, business analysis, governance, AI-collaboration evidence, prototype material, and the final presentation.
+RiskReview AI has evolved from a focused automotive programme-risk review concept into an expanded enterprise AI risk-governance framework.
 
-The recommended next step is to upload and verify each folder sequentially, beginning with `01_Executive_Summary`.
+The project demonstrates how organisations can combine AI-supported risk detection and monitoring with structured enterprise governance, Responsible AI, Explainable AI, supplier oversight, human decision authority, and phased implementation.
+
+The automotive sector remains the primary application domain, while wind-turbine operations demonstrate the framework's potential transferability. The project does not propose autonomous approval of high-risk decisions. Its central principle is that AI may assist with identification, analysis, explanation, and monitoring, but accountable humans retain authority over material launch, commissioning, acceptance, and escalation decisions.
