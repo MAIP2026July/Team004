@@ -107,7 +107,3 @@ Proceed to a controlled pilot when:
 - Pilot success measures
 - Risks, assumptions, issues, and dependencies log
 - Willingness-to-pay evidence
-
-## 10. Alignment with Professor Expectations
-
-The discovery plan demonstrates customer research, evidence-based problem validation, stakeholder coverage, ethical data collection, measurable hypotheses, prototype testing, commercial validation, and clear progression criteria.
