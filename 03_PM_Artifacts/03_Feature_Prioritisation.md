@@ -66,7 +66,3 @@ Features are prioritised using MoSCoW: Must Have, Should Have, Could Have, and W
 | R2 Shadow Pilot | Drift alerts, supplier evidence and domain testing |
 | R3 Paid Pilot | Integration, role dashboards, export and value measurement |
 | R4 Scale | Portfolio analytics, reusable domain configurations and supplier integration |
-
-## Professor-Expectation Alignment
-
-This artifact supports the professor's expected evidence of product-management discipline, expanded enterprise scope, appropriate AI use, human oversight, Responsible AI, Explainable AI, measurable evaluation, commercial relevance, and critical reflection. Any score, target, or forecast without observed pilot evidence is labelled as an assumption or proposed target.
