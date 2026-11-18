@@ -2,7 +2,7 @@
 
 ## Team004
 
-## 2. Team Members
+## Team Members
 
 | Team Member | BITS ID | GitHub ID |
 |---|---|---|
