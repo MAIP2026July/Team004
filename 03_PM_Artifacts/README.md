@@ -19,7 +19,3 @@ Only these six files are needed for the existing `03_PM_Artifacts` folder. Do no
 ## Submission Check
 
 Before upload, verify consistent product title, expanded scope, human decision boundaries, assumption labels, internal links, and evidence status.
-
-## Professor-Expectation Alignment
-
-This artifact supports the professor's expected evidence of product-management discipline, expanded enterprise scope, appropriate AI use, human oversight, Responsible AI, Explainable AI, measurable evaluation, commercial relevance, and critical reflection. Any score, target, or forecast without observed pilot evidence is labelled as an assumption or proposed target.
