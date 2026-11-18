@@ -101,7 +101,3 @@ Scaling requires:
 - User distrust or over-reliance
 - Different risk taxonomies across customers
 - Insufficient differentiation from existing governance tools
-
-## 11. Alignment with Professor Expectations
-
-The roadmap connects MVP evidence to paid pilot, buyer validation, revenue options, costs, scale gates, commercial risks, and cross-domain expansion without presenting untested assumptions as confirmed business results.
