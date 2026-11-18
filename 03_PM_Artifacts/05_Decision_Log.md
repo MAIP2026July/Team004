@@ -42,7 +42,3 @@ The Decision Log records material product, scope, AI, governance and submission 
 - Final performance thresholds after baseline testing
 - Paid-pilot pricing and commercial model
 - Standards and regulatory references requiring formal citation
-
-## Professor-Expectation Alignment
-
-This artifact supports the professor's expected evidence of product-management discipline, expanded enterprise scope, appropriate AI use, human oversight, Responsible AI, Explainable AI, measurable evaluation, commercial relevance, and critical reflection. Any score, target, or forecast without observed pilot evidence is labelled as an assumption or proposed target.
