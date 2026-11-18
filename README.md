@@ -2,12 +2,15 @@
 
 ## Team Members
 
-| Team Member | GitHub ID |
-|---|---|
-| Maharshi Pandit | `2025mb26121-hub` | `2025mb26121` |
-| Swaminathan B. | `007india` | `2025mb26109` |
+| Team Member | BITS ID | GitHub ID |
+|---|---|---|
+| Maharshi Pandit | 2025MB26121 | [2025mb26121-hub](https://github.com/2025mb26121-hub) |
+| Swaminathan B. | 2025MB26109 | [007india](https://github.com/007india) |
+
+> The final submission will include an individual contribution statement showing each team member's work, verification responsibilities, and approval of the submitted artifacts.
 
 ---
+
 
 ## 1. Introduction
 
