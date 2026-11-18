@@ -4,8 +4,8 @@
 
 | Team Member | GitHub ID |
 |---|---|
-| Maharshi Pandit | `2025mb26121-hub` |`2025mb26121`|
-| Swaminathan B. | `007india` |`2025mb26109`|
+| Maharshi Pandit | `2025mb26121-hub` | `2025mb26121` |
+| Swaminathan B. | `007india` | `2025mb26109` |
 
 ---
 
