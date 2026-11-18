@@ -61,7 +61,3 @@ A backlog item is ready when the user, value, data, acceptance criteria, human o
 ## 5. Definition of Done
 
 An item is done when implementation, tests, security/privacy checks, documentation, human review, error evidence and version-controlled approval are complete.
-
-## Professor-Expectation Alignment
-
-This artifact supports the professor's expected evidence of product-management discipline, expanded enterprise scope, appropriate AI use, human oversight, Responsible AI, Explainable AI, measurable evaluation, commercial relevance, and critical reflection. Any score, target, or forecast without observed pilot evidence is labelled as an assumption or proposed target.
