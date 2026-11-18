@@ -2,47 +2,75 @@
 
 ## Team004
 
-| Team Member | GitHub ID |
-|---|---|
-| Maharshi Pandit | `2025mb26121-hub` |
-| Swaminathan B. | `007india` |
+## 2. Team Members
 
-## Contribution Record
+| Team Member | BITS ID | GitHub ID |
+|---|---|---|
+| Maharshi Pandit | 2025MB26121 | [2025mb26121-hub](https://github.com/2025mb26121-hub) |
+| Swaminathan B. | 2025MB26109 | [007india](https://github.com/007india) |
 
-The final contribution record should be completed using version-control evidence, file history, meeting records, and human-verification records.
+---
 
-| Work Area | Maharshi Pandit | Swaminathan B. | Evidence Reference |
-|---|---|---|---|
-| Problem definition and scope | To be completed | To be completed | Commit, document history, or review record |
-| Product strategy and discovery | To be completed | To be completed | Commit or file history |
-| Requirements, user stories, and backlog | To be completed | To be completed | Commit or file history |
-| UX workflow and Human–AI governance | To be completed | To be completed | PlantUML, commit, or review record |
-| Data strategy and synthetic dataset | To be completed | To be completed | CSV and Markdown history |
-| AI and rules architecture | To be completed | To be completed | Architecture file and review record |
-| Evaluation and Model Card | To be completed | To be completed | Evaluation files and revisions |
-| Business case and economics | To be completed | To be completed | Financial model and assumption log |
-| Ethics, governance, and risk | To be completed | To be completed | Risk and governance file history |
-| Presentation and demonstration | To be completed | To be completed | Presentation and script history |
-| Final quality and consistency review | To be completed | To be completed | Pull request, checklist, or approval record |
 
-## Human Verification
+## Contribution Summary
 
-Each team member should record:
+### Maharshi Pandit
 
-- AI-generated content reviewed
-- Corrections made
-- Unsupported claims removed or qualified
-- Calculations checked
-- Sources checked
-- Final files approved
+Maharshi Pandit prepared, reviewed, and uploaded the following repository sections:
 
-## Declaration Template
+1. `01_Executive_Summary`
+2. `02_Product_Strategy`
+3. `03_PM_Artifacts`
+4. `07_Ethics_Governance_Risk`
+5. `09_Prototype`
 
-> We confirm that the submitted repository reflects our team’s work. Artificial Intelligence tools were used to support research, drafting, structuring, and review. The team reviewed and corrected the AI-generated content, retained responsibility for the final decisions, and labelled scenario-based assumptions and projections appropriately.
+The contribution covered the executive summary, expanded product strategy, product-management artifacts, ethics and governance controls, enterprise risk documentation, and prototype-related material.
 
-## Final Sign-Off
+### Swaminathan B.
 
-| Team Member | Final Review Completed | Date | Remarks |
+Swaminathan B. prepared, reviewed, and uploaded the following repository sections:
+
+1. `04_UX_Workflow_Trust`
+2. `05_Data_Model_Evaluation`
+3. `06_Business_Economics_Scaling`
+4. `08_AI_Collaboration`
+5. `10_Presentation`
+
+The contribution covered the Human–AI workflow, user journey, trust and explainability, data and model evaluation, business economics, commercial scaling, AI collaboration records, and final presentation material.
+
+## Shared Responsibilities
+
+Both team members jointly reviewed:
+
+- The expanded automotive and wind-energy scope
+- Consistency of terminology across folders
+- Human–AI decision boundaries
+- Responsible AI and Explainable AI controls
+- Scenario-based risk and financial assumptions
+- Final repository structure
+- Presentation readiness
+- Final submission quality
+
+## AI Use and Human Verification
+
+Artificial Intelligence tools were used to support research, drafting, content organisation, workflow design, and document review.
+
+Both team members remained responsible for:
+
+- Reviewing AI-generated content
+- Correcting inaccurate or inconsistent statements
+- Confirming calculations and assumptions
+- Distinguishing scenario projections from achieved results
+- Preserving human authority over material risk decisions
+- Approving the final submitted files
+
+## Final Declaration
+
+We confirm that the repository reflects our team’s contribution. AI tools supported document development, but all final content, assumptions, decisions, and submitted artifacts were reviewed and approved by the team.
+
+## Sign-Off
+
+| Team Member | Final Review Completed | Date | Signature or Confirmation |
 |---|---|---|---|
 | Maharshi Pandit | To be completed | To be completed | To be completed |
 | Swaminathan B. | To be completed | To be completed | To be completed |
