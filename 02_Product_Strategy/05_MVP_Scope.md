@@ -99,7 +99,3 @@ Numeric targets will be fixed after baseline collection and labelled test-case p
 - Domain experts must verify output.
 - Financial and risk-reduction claims remain hypotheses until evaluated.
 - Cross-domain generalisation cannot be assumed from one pilot.
-
-## 9. Alignment with Professor Expectations
-
-The MVP shows a bounded product, prioritised features, end-to-end workflow, AI and non-AI separation, human control, measurable evaluation, expanded domain coverage, and explicit exclusions.
