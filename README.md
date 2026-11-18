@@ -69,7 +69,7 @@ The expanded framework examines how organisations can:
 9. Introduce AI capabilities through phased implementation and maturity gates.
 10. Demonstrate transferability across more than one industrial context.
 
-The automotive sector remains the primary application domain. Wind-turbine operations are included as a second domain to demonstrate how the governance framework can be adapted to another asset-intensive, safety-relevant operating environment.
+This enterprise Ai risk product is built using AI RMF1.0 where enterprise risk outcomes can be mapped to individual project risks which include both technical and management risks that are not in scope of this Ai product. The automotive sector and Wind-turbine operations are included to demonstrate how the governance framework can be adapted to more than one asset-intensive and safety-relevant operating environment.
 
 ---
 
