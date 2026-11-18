@@ -16,7 +16,3 @@ This folder documents the product strategy for **RiskReview AI – Expanded Ente
 ## Scope Position
 
 Automotive AI and ECU systems are the primary application domain. Wind-turbine operations demonstrate transferability. Human decision authority, Responsible AI, Explainable AI, supplier governance, and continuous monitoring apply across both domains.
-
-## Professor-Expectation Coverage
-
-This folder covers problem validation, customer discovery, product vision, Jobs to Be Done, AI opportunity selection, MVP prioritisation, human–AI interaction, responsible product boundaries, business value, commercialisation, and scaling.
