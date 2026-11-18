@@ -172,22 +172,7 @@ Any new use case must satisfy all of the following before being added:
 6. Evaluation measures are available.
 7. The addition does not imply unsupported certification or deployment.
 
-## 9. Alignment with Professor Expectations
 
-| Professor expectation | Evidence in this document |
-|---|---|
-| Clear problem evolution | Initial and expanded scope are separately defined |
-| Justified expansion | Business and governance reasons are documented |
-| Focused use cases | Automotive is primary; wind energy demonstrates transferability |
-| Human–AI collaboration | Human authority is retained throughout the expansion |
-| Product thinking | Scope progression, boundaries, and control rules are explicit |
-| Critical reflection | Out-of-scope items and unsupported claims are identified |
-
-## 10. Conclusion
+## 9. Conclusion
 
 The expanded scope is a deliberate product evolution, not an unrelated change. The original automotive risk-review concept remains the foundation, while the current project addresses enterprise AI governance across product, operational, supplier, data, cybersecurity, and human-decision dimensions.
-
-
-## 9. Alignment with Professor Expectations
-
-This strategy demonstrates a meaningful enterprise problem, justified expanded scope, appropriate AI application, product differentiation, human oversight, business value, implementation boundaries, and critical reflection.
